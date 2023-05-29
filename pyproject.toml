@@ -1,0 +1,13 @@
+[project]
+name = "flaskr"
+version = "1.0.0"
+dependencies = [
+    "flask",
+]
+
+[tool.setuptools]
+py-modules = ["flaskr"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
